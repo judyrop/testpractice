@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://kit.fontawesome.com/8e59f70d33.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.6.1.min.js"></script>
+
+    <title>Test practice</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="title">Test </h1>
+                <ul id="navbar">
+                    <li><a href="#form">Form</a></li>
+                    <li><a href="#tableList">Table</a></li>
+                </ul>
+
+            </nav>
+            <div class="text">
+                <p>Fill in the form correctly and submit</p>
+            </div>
+        </div>
+    </div>
+    <div id="form">
+        <div class="container">
+            <div class="row">
+                <div class="form-col-1">
+                    <p class="info">Personal Information Form</p>
+                </div>
+                <div class="form-col-2">
+                    <h1 class="sub-title">Form</h1>
+                <div class="fill-in">
+                    <form class="submit-to-url">
+                        <input type="text" name="Name" id="name" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="email" placeholder="Your Email" required>
+                        <input type="number" name="Phone" id="phone" placeholder="Your Phone"required>
+                        <input type="text" name="Address" id="address" placeholder="Your Address">
+                        <button type="submit" id="submit" class="btn" onclick="openPopUp()">Submit</button>
+                        <button type="reset" id="reset" class="btn">Reset</button>
+                    </form>
+                    <div class="popUp" id="popUp">
+                        <p>Your details are sent successfully</p>
+                        <button type="button" onclick="closePopUp()">OK</button>
+                    </div>
+                    <div class="popUp2" id="popUp">
+                        <p>Your details are  not sent</p>
+                        <button type="button" onclick="closePopUp()">OK</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tableList">
+        <div class="container">
+            <h1 class="table">Table</h1>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Joan</td>
+                    <td>joanc@gmail.com</td>
+                    <td>0764234567</td>
+                    <td>20200</td>
+                    <td><button type="reset" class="edit">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>Eric</td>
+                    <td>eric@gmail.com</td>
+                    <td>0797865432</td>
+                    <td>20000</td>
+                    <td><button type="reset" class="edit">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>Damaris</td>
+                    <td>dame@gmail.com</td>
+                    <td>0723456789</td>
+                    <td>20102</td>
+                    <td><button type="reset" class="edit">Edit</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+</body>
+</html>
