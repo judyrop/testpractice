@@ -8,7 +8,7 @@ This is a test practice testing that takes in information from a form and post t
 ## Settup and Installation process
 Visual Studio code or any other editor is required .
 
-You can clone it from my github :https://github.com/judyrop/my_portfolio
+You can clone it from my github :https://github.com/judyrop/testpractice
 ## Known bugs
 There are known bugsand on going fixing them.
 ## Support and Contact Details
